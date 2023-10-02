@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<!--login page-->
+
+<html>
+
+<head>
+    <title>Sips</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="home.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <!--center text-->
+
+
+
+        <div class="row">
+            <div class="twelve columns">
+                <h1 class="center">Welcome to Sips</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <p>Home page</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <a href="login.php">Login</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <a href="register.php">Register</a>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <!--password form-->
+        <form action="login.php" method="post">
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="user" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="pass" required>
+
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+    </div>
+
+    <!--dark mode-->
+
+    <div class="dark-mode">
+        <div class="toggle">
+            <input type="checkbox" id="toggle" />
+            <label for="toggle">Dark Mode</label>
+        </div>
+    </div>
+
+    <script src="darkmode.js"></script>
+
+
+    <!--end dark mode-->
+
+
+
+</body>
+</html>
