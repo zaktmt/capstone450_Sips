@@ -8,8 +8,6 @@ import { getNotifications } from '../../actions';
 import { Spinner } from '../Reusables';
 import { BASE_URL } from '../../config';
 
-
-
 class Notification extends Component {
 
         componentWillMount() {

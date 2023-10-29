@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posting Form</title>
+
+    <link rel="stylesheet" type="text/css" href="styleform.css">
+</head>
+<body>
+   
+    <h1>Posting Form</h1>
+    <form method="POST" action="/form">
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required><br><br>
+        
+        <label for="content">Post Content (Maximum 500 Characters):</label>
+        <textarea id="content" name="content" rows="4" cols="50" maxlength="500" required></textarea><br><br>
+        <span id="characterCount">500 characters remaining</span><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
