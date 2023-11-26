@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <div id="linkstootherpages">
+            <a href="home.html">Home</a>
+            <a href="marketplace.html">Marketplace</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </div>
+
+        <link rel="stylesheet" href="mainstyle.css">
+
+
+    </head>
+    <body>
+        <div class="header">
+            <div class="section-inner">
+                <h1>Sips</h1>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="section-inner">
+                <ul class="clearfix">
+                    <li><a href="feed.html">Home</a></li>
+                    <li><a href="message.html">Messaging</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="#">Sips+</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                    <h1 class="center">Welcome to <b>Sips</b></h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="twelve columns">
+                    <p>Home page</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="twelve columns">
+                    <a href="login.php">Login</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="twelve columns">
+                    <a href="register.php">Register</a>
+                </div>
+            </div>
+
+            <div id="pickthemes">
+                <h2>Choose your theme</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="marketplace-item">
+                            <div class="marketplace-item-description"></div>
+                            <div id="darkmode">
+                                <button onclick="myFunction()">Dark Mode</button>
+                                <script>
+                                    function myFunction() {
+                                        var element = document.body;
+                                        element.classList.toggle("dark-mode");
+                                    }
+                                </script>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="marketplace-item">
+                            <div class="marketplace-item-description"> High Contrast Mode </div>
+                            <div id="highcontrast">
+                                <button onclick="myFunction()">High Contrast Mode</button>
+                                <script>
+                                    function myFunction() {
+                                        var element = document.body;
+                                        element.classList.toggle("high-contrast");
+                                    }
+                                </script>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+</html>
