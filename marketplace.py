@@ -3,7 +3,7 @@
 # purchase themes avatars with points
 
 
-import random
+
 
 
 class Marketplace:
