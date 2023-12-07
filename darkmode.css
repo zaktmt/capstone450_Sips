@@ -1,0 +1,88 @@
+/*Dark Mode with helvetica font*/
+
+/* Path: sips/sips_app/static/darkmode.css */
+
+/* Compare this snippet from sips/sips_app/static/mainstyle.css: */
+
+body {
+    font: 20px Helvetica, sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+h3 {
+    font: 20px Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+
+p {
+    font: 16px Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1000px;
+    height: 1000px;
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+}
+
+#header {
+    width: 1000px;
+    height: 100px;
+    background-color: #000000;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+#content {
+    width: 1000px;
+    height: 800px;
+    background-color: #000000;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+#footer {
+    width: 1000px;
+    height: 100px;
+    background-color: #000000;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+#nav {
+    width: 1000px;
+    height: 50px;
+    background-color: #000000;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
