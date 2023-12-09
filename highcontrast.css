@@ -1,0 +1,84 @@
+/* High Contrast Mode CSS based on mainstyle.css */
+
+h1{
+    font: 20px Helvetica, sans-serif;
+    color: #ff00bd;
+
+}
+h2{
+    font: 20px Helvetica, sans-serif;
+    color: #87e911;
+}
+h3{
+    font: 20px Helvetica, sans-serif;
+
+    color: #ff00bd;
+}
+
+p{
+    font: 16px Helvetica, sans-serif;
+    color: #87e911;
+}
+a{
+    color: #ff00bd;
+}
+a:hover{
+    color: #FFFFFF;
+}
+#container{
+    margin: 0 auto;
+    width: 1000px;
+    height: 1000px;
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+}
+#header{
+    width: 1000px;
+    height: 100px;
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+}
+#content{
+    width: 1000px;
+    height: 800px;
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+}
+#footer{
+    width: 1000px;
+    height: 100px;
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+}
+#nav{
+    width: 1000px;
+    height: 50px;
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+}
+label
+{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
